@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "cells", "~> 3.8"
   s.add_runtime_dependency "carrierwave"
 
-  s.add_runtime_dependency "coffee-script-source", "~> 1.2.0"
+  s.add_runtime_dependency "coffee-script-source"
   s.add_runtime_dependency "haml"
   s.add_runtime_dependency "haml-rails"
   s.add_runtime_dependency "haml_coffee_assets", "~> 0.9.2"
