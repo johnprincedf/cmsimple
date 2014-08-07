@@ -25,10 +25,9 @@ Cmsimple::Engine.routes.draw do
 
   get '/admin/editor(/*path)' => "pages#editor", :as => :mercury_editor, :format => false
 
-  get '*path' => 'front#show', :format => false
+  #get '*path' => 'front#show', :format => false
   root :to => 'front#show', :via => :get
 
-  put '*path' => 'pages#update_content'
+  #put '*path' => 'pages#update_content'
   root :to => 'pages#update_content', :via => :put
-
 end
